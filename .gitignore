@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Content/Collections
+Content/Developers
+Content/Geometry
+Content/Mannequin
+Content/StarterContent
+Content/Weapon_Pack
