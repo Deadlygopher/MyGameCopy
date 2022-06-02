@@ -16,14 +16,14 @@ AMyGamePlayerController::AMyGamePlayerController()
 void AMyGamePlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
-
+	/*
 	// keep updating the destination every tick while desired
 	if (bMoveToMouseCursor)
 	{
 		MoveToMouseCursor();
-	}
+	}*/
 }
-
+/*
 void AMyGamePlayerController::SetupInputComponent()
 {
 	// set up gameplay key bindings
@@ -43,6 +43,7 @@ void AMyGamePlayerController::OnResetVR()
 {
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
+
 
 void AMyGamePlayerController::MoveToMouseCursor()
 {
@@ -98,7 +99,7 @@ void AMyGamePlayerController::SetNewMoveDestination(const FVector DestLocation)
 		}
 	}
 }
-
+*/
 void AMyGamePlayerController::OnSetDestinationPressed()
 {
 	// set flag to keep updating destination until released
